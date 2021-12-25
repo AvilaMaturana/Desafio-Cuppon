@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+/* *{
+    border: 1px solid red;
+} */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ENCABEZADO */
+
+#Encabezado {
+    background-color: #28A745;
+    font-weight: lighter;
+    color: white;
+    
+}
+
+#Encabezado img{
+    width: 70%;
+    height: auto;
+    
+}
+
+@media (max-width: 576px){
+    #Encabezado img{
+        width: 50%;
+        
+    }
+}
+
+/* CUPONES */
+
+
+#contenedor .card p{
+    color: #212529;
+    font-weight: lighter;
+}
+
+#contenedor .card img{
+    border-radius: 3px;
+}
+
+#contenedor .card #Icon-map{
+    color: #707070;
+    font-size: 11pt;
+    font-weight: lighter;    
+}
+
+#contenedor .card #Icon-map .card-link{
+    text-decoration: none;
+    color: #707070;
+        
+}
+
+/* CORREO */
+
+#Correo {
+    background-color: #28A745;
+}
+
+
+
+
+#Correo .pb-3 input{
+    font-weight: 300;
+}
+
+@media (max-width: 576px){
+
+    #Correo #Grilla-nombre{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #FFFFFF;
+    font-size: 16pt;
+    color: #707070;
+    font-weight: lighter;
+}
+
+footer img{
+    width: 10%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 576px){
+    footer img{
+        width: 20%;
+        
+    }
+
+}
+
